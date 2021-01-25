@@ -1,0 +1,50 @@
+*{
+    background: #101820FF;
+}
+h1{
+        background: yellow;
+        text-align: center;
+        font-size: 25px;
+        padding: 20px 1em;
+        font-weight: bold;
+        margin-left: 32%;
+        margin-right: 32%;
+        border: 1px solid #000;
+        border-radius: 5px;
+        border-width: 1px;
+        cursor: pointer;
+        font-family: lato,sans-serif;
+}
+h3{
+    color: yellow;
+    font-family: lato,sans-serif;
+}
+marquee{
+    background: yellow;
+    font-size: 20px;
+    padding-top: 2px;
+    margin: auto;
+    margin-left: 32%;
+    margin-right: 32%;
+    border: 1px solid #000;
+    border-radius: 5px;
+    border-width: 0.5px;
+    cursor: pointer;
+    font-family: lato,sans-serif;  
+}
+label{
+    margin: auto;
+    color: white;
+    font-size: 20px;
+    font-family: lato,sans-serif;
+}
+input[type=text],[id]{
+background: white;
+border: 1px solid #000;
+border-radius: 5px;
+border-width: 2px;
+color: #000;
+font-size: 15px;
+margin: 5px;
+padding: 12px;
+}

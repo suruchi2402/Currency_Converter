@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Currency Converter</title>
+    <script src="calc.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="converter()">
+    <h1>Currency Converter</h1>
+
+    <marquee behavior="scroll" direction="right">Welcome to online Currency Converter</marquee>
+    <br><br><br><br>
+    <center>
+        <label for="pound"> Pound(Sterling) : </label>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+        <input type="text" id="pound" size="10" value="0.00" onchange="poundCon()" />
+        
+        </br>
+        <label for="dollerU">Doller(United States) : </label> &nbsp
+        <input type="text" id="dollerU" size="10" value="0.00" onchange="dollerCon()" />
+
+
+        </br>
+        <label for="EURO">Euro(Europe) : </label>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+        <input type="text" id="EURO" size="10" value="0.00" onchange="euroCon()" />
+        <!-- <label for="EUR"> EUR </label> -->
+
+        </br>
+        <label for="dollerC">Doller(Canada) : </label>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+        <input type="text" id="dollerC" size="10" value="0.00" onchange="cadCon()" />
+        <!-- <label for="CAD"> CAD </label> -->
+
+        </br>
+        <label for="dollerA">Doller(Australia) : </label> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+        <input type="text" id="dollerA" size="10" value="0.00" onchange="audCon()" />
+        <!-- <label for="AUD"> AUD </label>   -->
+
+        </br><br><br>
+        <h3>Thank You For Using This Converter</h3>
+    </center>
+</body>
+
+</html>
